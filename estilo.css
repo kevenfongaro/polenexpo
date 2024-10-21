@@ -462,6 +462,9 @@ a, a:visited, a:hover {
 	.secao1 .principal {
 		width: 80%;
 	}
+	.secao1 h3 {
+		font-size: 14pt;
+	}
 	.secao3 .imagem {
 		display: none;
 	}
@@ -491,7 +494,3 @@ a, a:visited, a:hover {
 		font-size: 24pt;
 	}
 }
-
-
-
-
