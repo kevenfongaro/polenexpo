@@ -444,6 +444,7 @@ p {
 .rodape a {
 	width: 20px;
 	transition: all 0.2s ease;
+	margin: 10px 0;
 }
 .rodape a:hover {
 	transform: scale(1.5);
@@ -457,12 +458,27 @@ a, a:visited, a:hover {
 
 }
 
+@media only screen and (max-height: 600px) {
+	.secao1 {
+		min-height: 90vh;
+		padding: 5% 0;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	.secao1 {
-		min-height: 93vh;
+		min-height: 90vh;
+		padding: 5% 0;
 	}
 	.secao1 .principal {
 		width: 80%;
+	}
+	.secao1 h1 {
+		font-size: 26pt;
+		font-weight: 700;
+	}
+	.secao1 h2 {
+		font-size: 14pt;
 	}
 	.secao1 h3 {
 		font-size: 14pt;
@@ -501,8 +517,5 @@ a, a:visited, a:hover {
 	}
 	.secao4 .conteudo h1 {
 		font-size: 24pt;
-	}
-	.rodape a {
-		margin: 10px 0;
 	}
 }
