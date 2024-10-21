@@ -471,6 +471,9 @@ a, a:visited, a:hover {
 		width: 30%;
 		margin: 20px 0;
 	}
+	.chamada a {
+		font-size: 12pt;
+	}
 	.secao3 .imagem {
 		display: none;
 	}
@@ -498,5 +501,8 @@ a, a:visited, a:hover {
 	}
 	.secao4 .conteudo h1 {
 		font-size: 24pt;
+	}
+	.rodape a {
+		margin: 10px 0;
 	}
 }
