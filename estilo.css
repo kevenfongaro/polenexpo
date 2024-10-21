@@ -459,6 +459,9 @@ a, a:visited, a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+	.secao1 .principal {
+		width: 80%;
+	}
 	.secao3 .imagem {
 		display: none;
 	}
@@ -470,6 +473,22 @@ a, a:visited, a:hover {
 	}
 	.secao4 .conteudo {
 		width: 80%;
+	}
+	.secao2 h2 {
+		font-size: 16pt;
+		margin: 5% 0;
+	}
+	.secao3 .conteudo h2 {
+		font-size: 16pt;
+	}
+	.secao4 .conteudo h2 {
+		font-size: 16pt;
+	}
+	.secao3 .conteudo h1 {
+		font-size: 24pt;
+	}
+	.secao4 .conteudo h1 {
+		font-size: 24pt;
 	}
 }
 
